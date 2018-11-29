@@ -1,0 +1,61 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial,sans-serif;
+  height: 100vh;
+  width: 100vw;
+  margin: 0;
+  background: linear-gradient(45deg, #7700ff, #7700aa);
+  color: white;
+  letter-spacing: 0.05em;
+}
+
+#app {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#app form {
+  display: flex;
+  flex-direction: column;
+  margin: 0 30%;
+}
+
+#app > #result {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  align-items: center;
+}
+
+form > * {
+  margin: 10px;
+}
+
+button {
+  background-color: #00aaaa;
+  color: white;
+  border: 0;
+  border-radius: 3px;
+  padding: 10px;
+  letter-spacing: 0.3em;
+  transition: background-color 0.5s ease;
+}
+
+button:disabled {
+  background-color: #333333;
+}
+
+img {
+  height: 200px;
+  width: 200px;
+}
+
+input[type=radio] {
+  margin-right: 1em;
+}

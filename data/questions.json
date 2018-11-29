@@ -1,0 +1,76 @@
+[{
+  "name": "What class are you most excited for?",
+  "choices": [{
+    "label": "Defense Against the Dark Arts",
+    "value": "Gryffindor"
+  }, {
+    "label": "Charms",
+    "value": "Hufflepuff"
+  }, {
+    "label": "Ancient Runes",
+    "value": "Ravenclaw"
+  }, {
+    "label": "Potions",
+    "value": "Slytherin"
+  }]
+},{
+  "name": "What is your favorite programming language?",
+  "choices": [{
+    "label": "JavaScript",
+    "value": "Gryffindor"
+  }, {
+    "label": "CSS",
+    "value": "Hufflepuff"
+  }, {
+    "label": "Haskell",
+    "value": "Ravenclaw"
+  }, {
+    "label": "Python",
+    "value": "Slytherin"
+  }]
+},{
+  "name": "What text editor do you prefer?",
+  "choices": [{
+    "label": "Visual Studio Code",
+    "value": "Gryffindor"
+  }, {
+    "label": "Atom",
+    "value": "Hufflepuff"
+  }, {
+    "label": "Vim",
+    "value": "Ravenclaw"
+  }, {
+    "label": "Emacs",
+    "value": "Slytherin"
+  }]
+},{
+  "name": "What best describes the color scheme your text editor uses?",
+  "choices": [{
+    "label": "Classic and easy to read - great for finding bugs",
+    "value": "Gryffindor"
+  }, {
+    "label": "Bright and colorful - great for keeping me motivated",
+    "value": "Hufflepuff"
+  }, {
+    "label": "Quiet, introspective colors - great for focusing on difficult problems",
+    "value": "Ravenclaw"
+  }, {
+    "label": "Low contrast colors - great for hiding my code from prying eyes",
+    "value": "Slytherin"
+  }]
+},{
+  "name": "What kind of patronus animal can you conjure?",
+  "choices": [{
+    "label": "A bold hippogriff",
+    "value": "Gryffindor"
+  }, {
+    "label": "A loyal penguin",
+    "value": "Hufflepuff"
+  }, {
+    "label": "A wise owl",
+    "value": "Ravenclaw"
+  }, {
+    "label": "Snakes. Lots of snakes",
+    "value": "Slytherin"
+  }]
+}]

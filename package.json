@@ -1,0 +1,35 @@
+{
+  "name": "wizardquiz",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "npm run start-server & npm run build-watch",
+    "start-server": "nodemon --watch server -e js,html server/main.js",
+    "build-watch": "webpack -w",
+    "seed": "node bin/seed",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-2": "^6.24.1",
+    "nodemon": "^1.14.11",
+    "webpack": "^3.10.0"
+  },
+  "dependencies": {
+    "axios": "^0.17.1",
+    "express": "^4.16.2",
+    "pg": "^7.4.1",
+    "pg-hstore": "^2.3.2",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "sequelize": "^4.33.3",
+    "volleyball": "^1.5.1"
+  }
+}
